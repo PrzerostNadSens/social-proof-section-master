@@ -1,10 +1,10 @@
-import Card from "../../components/card/Card";
+import SocialProofSection from "../../components/SocialProofSection";
 
 export default function MainPageContent() {
   return (
     <main className="main-section">
-      <div className="card-section">
-        <Card />
+      <div className="social-proof-section">
+        <SocialProofSection />
       </div>
     </main>
   );
