@@ -1,4 +1,3 @@
-/* Colors */
 :root {
   --very-dark-magenta: hsl(300, 43%, 22%);
   --soft-pink: hsl(333, 80%, 67%);
@@ -88,14 +87,27 @@ p {
 .rating {
   background-color: var(--light-grayish-magenta);
   padding: 1rem;
+  padding-left: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.rating {
-  color: var(--very-dark-magenta);
-  font-weight: 500;
+.star-rating-icons {
+  display: flex;
+}
+
+.star-rating-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("/assets/images/icon-star.svg");
 }
 
 .testimonials {
