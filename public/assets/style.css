@@ -32,6 +32,30 @@ p {
   padding: 5rem;
 }
 
+.background-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.background-top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 30vh;
+  background-image: url("/assets/images/bg-pattern-top-desktop.svg");
+}
+
+.background-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 80vh;
+  background-image: url("/assets/images/bg-pattern-bottom-desktop.svg");
+}
+
 .testimonial-author {
   display: flex;
   flex-direction: column;
