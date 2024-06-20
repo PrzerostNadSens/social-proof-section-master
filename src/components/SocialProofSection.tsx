@@ -6,9 +6,7 @@ import Testimonials from "./Testimonials";
 
 const MainSection: React.FC = () => {
   return (
-    <div className="background-container">
-      <div className="background-top-left"></div>
-      <div className="background-bottom-right"></div>
+    <>
       <div className="container">
         <div className="header-and-ratings">
           <div className="header">
@@ -23,7 +21,11 @@ const MainSection: React.FC = () => {
         </div>
         <Testimonials />
       </div>
-    </div>
+      <div className="background-container">
+        <div className="background-top-left"></div>
+        <div className="background-bottom-right"></div>
+      </div>
+    </>
   );
 };
 
