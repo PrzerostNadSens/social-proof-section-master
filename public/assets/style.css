@@ -34,7 +34,10 @@ p {
 }
 
 .container {
-  padding: 5rem;
+  padding: 2rem;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 5rem;
 }
 
 .background-container {
@@ -169,7 +172,7 @@ p {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   .container {
     padding: 1rem;
   }
