@@ -1,8 +1,8 @@
-import "../../public/assets/style.css";
+import "./SocialProofSection.css";
 
-import Ratings from "./Ratings";
+import Ratings from "../Ratings/Ratings";
 import React from "react";
-import Testimonials from "./Testimonials";
+import Testimonials from "../Testimonials/Testimonials";
 
 const MainSection: React.FC = () => {
   return (

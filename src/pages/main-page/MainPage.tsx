@@ -1,4 +1,6 @@
-import SocialProofSection from "../../components/SocialProofSection";
+import "./MainPage.css";
+
+import SocialProofSection from "../../components/SocialProofSection/SocialProofSection";
 
 export default function MainPageContent() {
   return (

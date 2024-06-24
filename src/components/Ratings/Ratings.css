@@ -1,0 +1,37 @@
+.ratings {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.rating {
+  background-color: var(--light-grayish-magenta);
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 2rem;
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating:not(:first-of-type) {
+  transform: translateX(calc(40px * (var(--index) - 1)));
+}
+
+.star-rating-icons {
+  display: flex;
+}
+
+.star-rating-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-image: url("/assets/images/icon-star.svg");
+}

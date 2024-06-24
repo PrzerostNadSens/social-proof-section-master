@@ -1,3 +1,5 @@
+import "./Testimonials.css";
+
 import React from "react";
 
 const testimonialsData = [

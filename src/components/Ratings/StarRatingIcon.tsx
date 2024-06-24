@@ -1,3 +1,5 @@
+import "./Ratings.css";
+
 import React from "react";
 
 interface StarRatingIconProps {

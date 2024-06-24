@@ -1,3 +1,5 @@
+import "./Ratings.css";
+
 import React from "react";
 import StarRatingIcon from "./StarRatingIcon";
 

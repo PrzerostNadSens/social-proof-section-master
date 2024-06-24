@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url("https://fonts.google.com/specimen/League+Spartan");
+}
+
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  font-family: "League Spartan";
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  color: var(--very-dark-magenta);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  color: var(--dark-grayish-magenta);
+  font-weight: 400;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .ratings,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+}
