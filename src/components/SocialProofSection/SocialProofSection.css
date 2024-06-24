@@ -46,3 +46,9 @@
   background-position: bottom right;
   background-image: url("/assets/images/bg-pattern-bottom-desktop.svg");
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding: 1rem;
+  }
+}

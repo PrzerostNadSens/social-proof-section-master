@@ -35,3 +35,10 @@
   margin-right: 8px;
   background-image: url("/assets/images/icon-star.svg");
 }
+
+@media (max-width: 375px) {
+  .ratings {
+    flex-direction: column;
+    align-items: center;
+  }
+}
