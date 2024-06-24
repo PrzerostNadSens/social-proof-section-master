@@ -12,7 +12,6 @@
   font-family: "League Spartan";
 }
 
-/* Typography */
 body {
   font-family: "League Spartan", sans-serif;
   font-size: 15px;
@@ -111,6 +110,10 @@ p {
   align-items: center;
 }
 
+.rating:not(:first-of-type) {
+  transform: translateX(calc(40px * (var(--index) - 1)));
+}
+
 .star-rating-icons {
   display: flex;
 }
@@ -136,6 +139,10 @@ p {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 300px;
+}
+
+.testimonial:not(:first-of-type) {
+  transform: translateY(calc(20px * (var(--index) - 1)));
 }
 
 .testimonial-img {
