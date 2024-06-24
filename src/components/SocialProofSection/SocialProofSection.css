@@ -51,4 +51,18 @@
   .container {
     padding: 1rem;
   }
+
+  .header-and-ratings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .background-top-left {
+    background-image: url("/assets/images/bg-pattern-top-mobile.svg");
+  }
+
+  .background-bottom-right {
+    background-image: url("/assets/images/bg-pattern-bottom-mobile.svg");
+  }
 }
