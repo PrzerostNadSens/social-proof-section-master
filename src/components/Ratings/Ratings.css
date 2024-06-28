@@ -39,7 +39,7 @@
   background-image: url("/assets/images/icon-star.svg");
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .ratings {
     flex-direction: column;
   }

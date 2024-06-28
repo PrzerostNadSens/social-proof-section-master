@@ -33,7 +33,7 @@ p {
   text-align: left;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   h1 {
     text-align: center;
   }
